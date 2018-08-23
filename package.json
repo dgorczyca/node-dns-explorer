@@ -1,0 +1,26 @@
+{
+  "name": "dns-explorer",
+  "version": "1.0.0",
+  "description": "Lookup DNS details of a domain",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgorczyca/node-dns-explorer.git"
+  },
+  "keywords": [
+    "dns"
+  ],
+  "author": "Dawid Gorczyca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgorczyca/node-dns-explorer/issues"
+  },
+  "homepage": "https://github.com/dgorczyca/node-dns-explorer",
+  "dependencies": {
+    "dns": "^0.2.2"
+  }
+}
